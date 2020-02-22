@@ -31,7 +31,7 @@
 オリジナルのgeojsonファイルには `N03_001 / N03_002 / N03_003 / N03_004 / N03_007` と5つの属性が登録されていますが、`N03_007`以外は不要なため、削除してあります。
 また、`N03_007`もカラム名を`city_code`にrenameしてあります。
 
-### `- multi-polygon/unified/`
+### `multi-polygon/unified/`
 `multi-polygon/`直下に格納されたgeojsonファイルに以下の処理をほどこしたものです。
 - 都道府県ごとに、含まれる地物の融合(dissolve)
 - 属性テーブルの編集
